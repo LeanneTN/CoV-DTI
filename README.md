@@ -42,7 +42,8 @@ pip install tflearn
 
 ## Run the code
 To run our experiments:
-1. Unzip data.rar in ./data.
+1. Unzip data.rar or data_original.rar in ./data. The latter one corresponds to the original dataset we used in the manuscript while the former one added new virus protein-human protein interaction data (tiantingzhong: please add the citation here) that further improved the prediction performance. 
+
 2. Execute <code>python NeoDTI_for_COVID19.py</code> to run the 10 fold cross validation results of NeoDTI as well as the prediction results. Options are:  
 `-d: The embedding dimension d, default: 512.`  
 `-n: Global norm to be clipped, default: 1.`  
