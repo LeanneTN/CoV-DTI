@@ -43,10 +43,13 @@ pip install tflearn
 ## Run the code
 To run our experiments:
 1. Unzip data.rar in ./data.
-2. Execute <code>NeoDTI_for_COVID19.py</code> to run the cross validation results of NeoDTI as well as the prediction. Options are:  
-`-d: The embedding dimension d, default: 1024.`  
+2. Execute <code>python NeoDTI_for_COVID19.py</code> to run the 10 fold cross validation results of NeoDTI as well as the prediction results. Options are:  
+`-d: The embedding dimension d, default: 512.`  
 `-n: Global norm to be clipped, default: 1.`  
-`-k: The dimension of project matrices, default: 512.`  
+`-k: The dimension of project matrices, default: 256.`  
+`-r: The number of 10 fold cross validation to run, default: 10.`  
+`-e: The epoch number for model training, default: 5000.`  
+`-l: L2 regularization strength, default: 0.`  
 
 # Data description
 * drug.txt: list of drug names.
@@ -76,5 +79,5 @@ All entities (i.e., drugs, compounds, proteins, diseases and side-effects) are o
 
 
 # Contacts
-If you have any questions or comments, please feel free to email Fangping Wan (wfp15[at]mails[dot]tsinghua[dot]edu[dot]cn) and/or Jianyang Zeng (zengjy321[at]tsinghua[dot]edu[dot]cn).
+If you have any questions or comments, please feel free to email Fangping Wan (wanfangping92[at]gmail[dot]com) and/or Jianyang Zeng (zengjy321[at]tsinghua[dot]edu[dot]cn).
 
