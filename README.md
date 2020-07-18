@@ -1,8 +1,7 @@
-# NeoDTI
-NeoDTI: Neural integration of neighbor information from a heterogeneous network for discovering new drug-target interactions [(Bioinformatics)](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty543/5047760).
+# NeoDTI for COVID-19
+A data-driven drug repositioning framework discovered a potential therapeutic agent targeting COVID-19
+ [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.11.986836v1.abstract).
 
-# Recent Update 09/06/2018
-L2 regularization is added.
 
 # Requirements
 * Tensorflow (tested on version 1.0.1 and version 1.2.0)
