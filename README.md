@@ -4,10 +4,11 @@ A data-driven drug repositioning framework discovered a potential therapeutic ag
 
 
 # Requirements
-* Tensorflow (tested on version 1.0.1 and version 1.2.0)
+* Python 2.7
+* Tensorflow (tested on version 1.5.0)
 * tflearn
-* numpy (tested on version 1.13.3 and version 1.14.0)
-* sklearn (tested on version 0.18.1 and version 0.19.0)
+* numpy (tested on version 1.16.4)
+* sklearn (tested on version 0.20.3)
 
 # Quick start
 To reproduce our results:
