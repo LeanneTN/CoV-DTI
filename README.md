@@ -11,7 +11,8 @@ Our code is tested on Ubuntu 16.04.6 LTS with the following software dependencie
 * sklearn (tested on version 0.20.3)
 * tflearn
 
-
+# Installation Guide
+## Install the dependencies
 
 # Quick start
 To reproduce our results:
