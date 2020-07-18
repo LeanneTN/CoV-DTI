@@ -50,10 +50,20 @@ To run our experiments:
 `-r: The number of 10 fold cross validation to run, default: 10.`  
 `-e: The epoch number for model training, default: 5000.`  
 `-l: L2 regularization strength, default: 0.`  
+The results are stored in ./output.
 
 # Data description
-* drug.txt: list of drug names.
-* protein.txt: list of protein names.
+* drug_iddict: python dictionary, key: drug InChI; value: index number.
+* Drug_simi_net.npy: Drug structure similarity matrix (tanimoto similarity of Morgan fingerprints).
+* new_all_human_seq_iddict.pkl: python dictionary, key: human protein ID; value: index number.
+* new_all_human_seq_seqdict.pkl: python dictionary, key: human protein ID; value: protein sequence.
+* new_all_human_seq.npy: Human protein sequence similarity matrix (normalized Smith-Waterman alignment scores)
+* PPI_net.npy: Human protein-protein interaction matrix.
+
+* all_seq_virus_seqdict.pkl: python dictionary, key: human protein ID; value: index number.
+* all_seq_virus_iddict.pkl: python dictionary, key: human protein ID; value: index number.
+* all_seq_virus.npy: Virus protein sequence similarity matrix (normalized Smith-Waterman alignment scores)
+
 * disease.txt: list of disease names.
 * se.txt: list of side effect names.
 * drug_dict_map: a complete ID mapping between drug names and DrugBank ID.
