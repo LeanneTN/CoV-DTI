@@ -40,16 +40,10 @@ Install tflearn
 pip install tflearn
 ```
 
-# Quick start
-To reproduce our results:
-1. Unzip data.zip in ./data.
-2. Run <code>NeoDTI_cv.py</code> to reproduce the cross validation results of NeoDTI. Options are:  
-`-d: The embedding dimension d, default: 1024.`  
-`-n: Global norm to be clipped, default: 1.`  
-`-k: The dimension of project matrices, default: 512.`  
-`-r: Positive and negative. Two choices: ten and all, the former one sets the positive:negative = 1:10, the latter one considers all unknown DTIs as negative examples. Default: ten.`  
-`-t: Test scenario. The DTI matrix to be tested. Choices are: o, mat_drug_protein.txt will be tested; homo, mat_drug_protein_homo_protein_drug.txt will be tested; drug, mat_drug_protein_drug.txt will be tested; disease, mat_drug_protein_disease.txt will be tested; sideeffect, mat_drug_protein_sideeffect.txt will be tested; unique, mat_drug_protein_drug_unique.txt will be tested. Default: o.`
-3. Run <code>NeoDTI_cv_with_aff.py</code> to reproduce the cross validation results of NeoDTI with additional compound-protein binding affinity data. Options are:  
+## Run the code
+To run our experiments:
+1. Unzip data.rar in ./data.
+2. Execute <code>NeoDTI_for_COVID19.py</code> to run the cross validation results of NeoDTI as well as the prediction. Options are:  
 `-d: The embedding dimension d, default: 1024.`  
 `-n: Global norm to be clipped, default: 1.`  
 `-k: The dimension of project matrices, default: 512.`  
