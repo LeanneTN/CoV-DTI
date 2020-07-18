@@ -4,12 +4,15 @@ A data-driven drug repositioning framework discovered a potential therapeutic ag
 
 
 # Requirements
-The code is tested on Ubuntu 16.04.6 LTS with the following dependencies: 
+The code is tested on Ubuntu 16.04.6 LTS.
+The code can be run in Python 2.7 with the following dependencies: 
 * Python 2.7
 * Tensorflow (tested on version 1.5.0)
 * numpy (tested on version 1.16.4)
 * sklearn (tested on version 0.20.3)
 * tflearn
+
+
 
 # Quick start
 To reproduce our results:
