@@ -4,6 +4,10 @@ A data-driven drug repositioning framework discovered a potential therapeutic ag
 
 
 # Requirements
+## Hardware Requirements
+Our code requires GPU to faciliate the neural network training. The GPU we used to train the model is Nvidia GeForce GTX 1080 Ti.
+
+## Software Requirements
 Our code is tested on Ubuntu 16.04.6 LTS with the following software dependencies:
 * Python 2.7 
 * Tensorflow (tested on version 1.5.0)
@@ -13,6 +17,28 @@ Our code is tested on Ubuntu 16.04.6 LTS with the following software dependencie
 
 # Installation Guide
 ## Install the dependencies
+Install Python 2.7
+```
+sudo apt update
+sudo apt upgrade
+sudo apt install python2.7 python-pip
+ ```
+Install numpy
+```
+pip install numpy==1.16.4
+ ```
+Install sklearn
+```
+pip install scikit-learn==0.20.3
+```
+Install tensorflow
+```
+pip install tensorflow-gpu==1.5.0
+ ```
+Install tflearn
+```
+pip install tflearn
+```
 
 # Quick start
 To reproduce our results:
