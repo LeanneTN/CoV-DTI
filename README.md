@@ -53,7 +53,7 @@ To run our experiments:
 `-l: L2 regularization strength, default: 0.`  
 The results are stored in ./output.
 
-3. The typical run time for one repeat of 10 fold cross validation is 2~3 days.
+3. The typical run time for one repeat of 10 fold cross validation on a Linux machine is 2~3 days.
 
 # Data description
 * drug_iddict: python dictionary, key: drug InChI; value: index number.
