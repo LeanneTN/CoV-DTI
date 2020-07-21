@@ -73,7 +73,18 @@ The results are stored in ./output.
 
 All entities (i.e., drugs, human and virus proteins) are ordered by their indices. 
 
-
+# Paper results
+The predictive results and files associated with the paper are provided.
+`paper/results/retrospective_study/*`: Prediction results of CoV-DTI in a retrospective study.
+`paper/results/retrospective_study/All_drugs_rank_for_SARS.txt`: Prediction results of CoV-DTI for SARS.
+`paper/results/retrospective_study/All_drugs_rank_for_MERS.txt`: Prediction results of CoV-DTI for MERS.
+`paper/results/predictions/*`: Prediction results of drug repositioning against COVID-19.
+`paper/results/predictions/Drug_COVID-19_CoV-DTI.xlsx`: Prediction results of CoV-DTI.
+`paper/results/predictions/Drug_COVID-19_BERE.xlsx`: Prediction results of [BERE](https://github.com/haiya1994/BERE).
+`paper/results/predictions/Drug_COVID-19_CMap_PBMC.txt`: Prediction results of [CMap](https://clue.io) from PBMC samples of COVID-19 patients.
+`paper/results/predictions/Drug_COVID-19_CMap_BALF.txt`: Prediction results of [CMap](https://clue.io) from BALF samples of COVID-19 patients.
+`paper/results/predictions/Drug_SARS_CMap_PBMC.txt`: Prediction results of [CMap](https://clue.io) from PBMC samples of SARS patients.
+`paper/experiments/Source Data.xlsx`: Raw data points associated with the figures in the paper.
 
 # Contacts
 If you have any questions or comments, please feel free to email Fangping Wan (wanfangping92[at]gmail[dot]com) and/or Jianyang Zeng (zengjy321[at]tsinghua[dot]edu[dot]cn).
