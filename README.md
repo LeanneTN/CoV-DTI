@@ -76,8 +76,8 @@ All entities (i.e., drugs, human and virus proteins) are ordered by their indice
 # Paper results
 The predictive results and files associated with the paper are provided.
 
-* `paper/BERE/*`: Data for drug screening using [BERE](https://github.com/haiya1994/BERE).
-* `paper/CMap/*`: Data for [CMap](https://clue.io) analysis.
+* `paper/BERE/*`: Results after text mining using [BERE](https://github.com/haiya1994/BERE). For trained BERE model please refer to the original repostory.
+* `paper/CMap/*`: Data used for [CMap](https://clue.io) analysis.
 * `paper/results/retrospective_study/*`: Prediction results of CoV-DTI in a retrospective study.
 * `paper/results/retrospective_study/All_drugs_rank_for_SARS.txt`: Prediction results of CoV-DTI for SARS.
 * `paper/results/retrospective_study/All_drugs_rank_for_MERS.txt`: Prediction results of CoV-DTI for MERS.
