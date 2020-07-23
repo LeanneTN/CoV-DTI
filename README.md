@@ -1,5 +1,5 @@
 # CoV-DTI
-A data-driven drug repositioning framework discovered a potential therapeutic agent targeting COVID-19
+An integrative drug repositioning framework discovered a potential therapeutic agent targeting COVID-19
  [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.11.986836v1.abstract).
 
 
