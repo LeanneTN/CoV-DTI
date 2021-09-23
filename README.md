@@ -1,6 +1,7 @@
 # CoV-DTI
 An integrative drug repositioning framework discovered a potential therapeutic agent targeting COVID-19
- [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.11.986836v1.abstract).
+
+Published in [(Signal Transduction and Targeted Therapy)](https://www.nature.com/articles/s41392-021-00568-6).
 
 
 # Requirements
