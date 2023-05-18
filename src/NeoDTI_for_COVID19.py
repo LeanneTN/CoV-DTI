@@ -26,16 +26,16 @@ parser.add_option("-e","--e",default = 5000,help="epoch num")
 
 #load network
 drug_chemical = np.load('../data/Drug_simi_net.npy')
-print np.shape(drug_chemical)
+print (np.shape(drug_chemical))
 protein_protein = np.load('../data/PPI_net.npy')
-print np.shape(protein_protein)
+print (np.shape(protein_protein))
 protein_sequence = np.load('../data/new_all_human_seq.npy')
-print np.shape(protein_sequence)
+print (np.shape(protein_sequence))
 virus_sequence = np.load('../data/all_seq_virus.npy')
-print np.shape(virus_sequence)
+print (np.shape(virus_sequence))
 
 virus_protein = np.load('../data/VHI_net.npy')
-print np.shape(virus_protein)
+print (np.shape(virus_protein))
 protein_virus = virus_protein.T
 
 
@@ -67,7 +67,7 @@ class Model(object):
     def _build_model(self):
         #inputs
 
-        self.drug_chemical = tf.placeholder(tf.float32, [num_drug, num_drug])
+        self.drug_chemical = tf.placeholder(tf.float32, [num_drug, num_drug]) // 占位,等待session建立后提供内存空间
         self.drug_chemical_normalize = tf.placeholder(tf.float32, [num_drug, num_drug])
 
 
